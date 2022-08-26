@@ -1,0 +1,22 @@
+.card{
+    width: 200px;
+    height: 300px;
+    background-color: #fff;
+    box-shadow: 2px 0 15px 0 grey;
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    transition: all .5s ease-in-out;
+}
+.card-icon{
+    width: 80px;
+    margin: auto;
+}
+.card-icon img{
+    width: 100%;
+}
+.card:hover{
+    /* width: 205px; */
+    box-shadow: 0 0 15px 0 #2549D3;
+}
