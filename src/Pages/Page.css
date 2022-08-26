@@ -185,6 +185,11 @@
     .search-section .search-div{
        display: none;
     }
+     /* featured */
+     .featured .btn-div{
+        justify-content: center;
+        margin-right: 0;
+    }
 }
 
 @media screen and (max-width: 420px){
@@ -210,9 +215,5 @@
         margin: auto 20px;
     }
 
-    /* featured */
-    .featured .btn-div{
-        justify-content: center;
-        margin-right: 0;
-    }
+   
 }
