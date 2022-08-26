@@ -1,0 +1,24 @@
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #0F298B;
+    padding: 50px;
+    color: #fff;
+    gap: 20px;
+}
+
+footer ul li{
+    list-style: none;
+    text-align: start;
+}
+
+@media screen and (max-width: 740px){
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content:left;
+    }
+    footer ul{
+        margin-left: 0;
+    }
+}

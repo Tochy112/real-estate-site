@@ -1,10 +1,13 @@
 import React from 'react'
 import "./Button.css"
 
-const Button = ({content}) => {
+const Button = ({content, icon}) => {
   return (
     <div>
-        <button>{content}</button>
+        <button>
+          {icon}
+          {content}
+        </button>
     </div>
   )
 }

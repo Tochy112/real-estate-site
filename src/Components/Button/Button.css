@@ -6,4 +6,7 @@ button{
     border-radius: 5px;
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 3px;
 }
