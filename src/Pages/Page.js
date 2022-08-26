@@ -60,7 +60,7 @@ const Page = () => {
 
             <section className="how-it-works">
                 <h1>How it works</h1>
-                <h4>Thsi is how our products works</h4>
+                <h4>This is how our products works</h4>
 
                 <div className="card-div">
                     <Card 
