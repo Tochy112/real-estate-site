@@ -72,7 +72,7 @@
 }
 .how-it-works h1{
     color: #2549D3;
-    font-size: 35px;
+    font-size: 30px;
 }
 .how-it-works h4{
     margin-bottom: 30px;
@@ -105,6 +105,7 @@
 }
 .choose_us .choose_us_parent h1{
     color: #2549D3;
+    font-size: 30px;
 }
 .choose_us .choose_us_parent h4{
     color: #3a3939;
@@ -137,6 +138,7 @@
 }
 .featured .featured_wrapper h1{
     color: #2549D3;
+    font-size: 30px;
 }
 .featured .featured_wrapper h4{
     color: #3a3939;
@@ -178,6 +180,46 @@
 }
 
 
+/* TESTIMONIAL SECTION STYLINGS */
+.testimonial {
+    margin: 150px 0;
+}
+.testimonial h1,
+.testimonial .write_up{
+    text-align: center;
+}
+.testimonial h1{
+    color: #2549D3;
+    font-size: 30px;
+}
+.testimonial .write_up{
+    color: #3a3939;
+}
+.testimonial .testimonial_parent{
+    gap: 30px;
+    margin-top: 50px;
+}
+.testimonial .test_wrapper .test_card{
+    width: 330px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px #afaeae;
+}
+.testimonial .test_wrapper .test_card h4{
+    color: #3a3939;
+}
+.testimonial_parent{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.testimonial .btn-div{
+    display: flex;
+    justify-content: right;
+    margin-right: 100px;
+}
+
 
 /* MEDIA QUERY */
 @media screen and (max-width: 540px){
@@ -187,6 +229,12 @@
     }
      /* featured */
      .featured .btn-div{
+        justify-content: center;
+        margin-right: 0;
+    }
+
+     /* testimonial */
+     .testimonial .btn-div{
         justify-content: center;
         margin-right: 0;
     }
@@ -214,6 +262,29 @@
     .choose_us .choose_us_parent .write_up{
         margin: auto 20px;
     }
-
    
+}
+
+@media screen and (max-width: 320px){
+    .testimonial .test_wrapper .test_card{
+        width: 250px;
+    }
+    .featured_cards{
+        width: 250px;
+    }
+    .landing_page .landing_wrapper .img{
+        width: 300px;
+    }
+    .landing_page .landing_wrapper{
+        margin-left: 10px;
+    }
+    .landing_page .landing_wrapper h1{
+        font-size: 30px;
+        color: #2549D3;
+    }
+    
+    .choose_us .choose_us_parent .img{
+        width: 300px;
+    }
+    
 }

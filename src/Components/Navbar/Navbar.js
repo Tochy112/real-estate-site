@@ -11,7 +11,7 @@ const Navbar = () => {
         <div className='navbar_div'>
 
             <nav>
-                <Link to="/" className='nav-logo'>Tochy</Link>
+                <Link to="/" className='nav-logo'>TOCHY</Link>
 
                 <ul className={isExpanded ? "navbar" : "navbar-active"}
 
@@ -34,9 +34,8 @@ const Navbar = () => {
                     </li>
                     
                 </ul>
-                <Link to="/" className='get_started'>
-                    <Btn content="Get Started" />
-                </Link>
+                    
+                <Btn content="Get Started" />
 
                 {/* Mobile menu */}
                 <div className={isExpanded ? "menu-icon" : "menu-icon-active"}

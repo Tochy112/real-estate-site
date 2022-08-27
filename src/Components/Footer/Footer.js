@@ -6,7 +6,7 @@ const Footer = () => {
     <div>
       <footer>
         <div>
-          <h4>Dee's Estate</h4>
+          <h4>TOCHY ESTATE</h4>
           <p>
             solution for easy and flexible <br/> house hunting.
             You can trust us <br/> anywhere through this <br/> plartform

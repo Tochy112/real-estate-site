@@ -24,6 +24,12 @@ const Page = () => {
         {id:3, image: house5, property: "REXONA"}
     ]
 
+    const testimonial = [
+        { id: 1, name: "Alex Godwin", country: "South africa"},
+        {id: 2, name: "Eden Daniel", country: "United States"},
+        {id: 3, name: "Clara Zik", country: "Nigeria"}
+    ]
+
     return(
         <div>
             <section className="landing_page">
@@ -113,21 +119,29 @@ const Page = () => {
                         <div className="icon_parent">
                             <div className="icon_div">
                                 <div className="icon_wrapper">
-                                    <div className="img"><img src={good_icon} alt="good_mark" /></div>
+                                    <div className="img">
+                                        <img src={good_icon} alt="good_mark" />
+                                    </div>
                                     <h4>  World class   </h4>
                                 </div>
                                 <div className="icon_wrapper">
-                                    <div className="img"><img src={good_icon} alt="good_mark" /></div>
+                                    <div className="img">
+                                        <img src={good_icon} alt="good_mark" />
+                                    </div>
                                     <h4>Affortable</h4>
                                 </div>
                             </div>
                             <div className="icon_div">
                                 <div className="icon_wrapper">
-                                   <div className="img"><img src={good_icon} alt="good_mark" /></div>
+                                    <div className="img">
+                                        <img src={good_icon} alt="good_mark" />
+                                    </div>
                                     <h4>Trusted</h4>
                                 </div>
                                 <div className="icon_wrapper">
-                                    <div className="img"><img src={good_icon} alt="good_mark" /></div>
+                                    <div className="img">
+                                        <img src={good_icon} alt="good_mark" />
+                                    </div>
                                     <h4>Amenities</h4>
                                 </div>
                             </div>
@@ -168,6 +182,35 @@ const Page = () => {
                         
                     </div>
                         
+                </div>
+            </section>
+
+            <section className="testimonial">
+                <h1>Testimonials.</h1>
+                <h4 className="write_up">This is what our clients are saying</h4>
+                
+                <div className="btn-div">
+                    <Btn  content="View more"/>
+                </div>
+
+                <div className="testimonial_parent">
+                    {
+                        testimonial && testimonial.map((test =>
+                            <div className="test_wrapper" key={test.id}>
+                                <div className="test_card">
+                                    <h2>{test.name}</h2>
+                                    <p>{test.country}</p>
+                                    <h4>
+                                        lorem ipsum dolor sit amet, <br/>
+                                        consectetur adipsicing elit, Fames ut <br/> 
+                                        dictunst urna, lorem nibh, Pretium leo <br/>
+                                        hendrerit interdum netus
+                                    </h4>
+                                </div>
+                            </div>
+
+                        ))
+                    }
                 </div>
             </section>
         </div>
