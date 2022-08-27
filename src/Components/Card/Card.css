@@ -17,6 +17,11 @@
     width: 100%;
 }
 .card:hover{
-    /* width: 205px; */
     box-shadow: 0 0 15px 0 #2549D3;
+}
+
+@media screen and (max-width: 280px){
+    .card{
+        width: 150px;
+    }
 }
